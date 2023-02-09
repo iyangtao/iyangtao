@@ -1,7 +1,7 @@
 ## 聚合函数
 
 * `AVG([DISTINCT] expr)`：（分组）对列的数据求平均值
-* ` SUM([DISTINCT] expr)`：（分组）对列的数据求总和
+* `SUM([DISTINCT] expr)`：（分组）对列的数据求总和
 *  `MIN([DISTINCT] expr)`：（分组）求列数据的最小值
 *  `MAX([DISTINCT] expr)`：（分组）求列数据的最大值
 * `COUNT([DISTINCT] expr)`：（分组）求数据行数
@@ -43,9 +43,8 @@
 * `LEAST(value1,value2,...)`：返回列表中的最小值，列表含null则返回null
 * `GREATEST(value1,value2,...)`：返回列表中的最大值，列表含null则返回null
 * `MOD(N,M)`：返回X除以Y后的余数
-
 * `RAND()`：返回0~1的随机值
-* `RAND(X)`：返回0~1的随机值，其中x的值用作种子值，相同的X值会产生相同的随机 数
+* `RAND(X)`：返回0~1的随机值，其中x的值用作种子值，相同的X值会产生相同的随机数
 * `ROUND(X)`：返回一个对x的值进行四舍五入后，最接近于X的整数
 * `ROUND(X,D)`：返回一个对x的值进行四舍五入后最接近X的值，并保留到小数点后面Y位
 * `TRUNCATE(X,D)`：返回数字x截断为y位小数的结果
